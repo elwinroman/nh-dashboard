@@ -107,7 +107,7 @@ export default function SidebarLinks ({ pathname }) {
                   href={menu.href}
                   className={`${styles.menu} ${pathname === menu.href
                     ? 'bg-sky-100 text-blue-600 font-semibold hover:bg-sky-200'
-                    : 'font-medium text-gray-500 hover:bg-gray-100'}`}
+                    : 'font-medium text-slate-500 hover:bg-gray-100'}`}
                 >
                   <i>{menu.icon}</i>
                   <span className='text-sm'>{menu.name}</span>
@@ -117,12 +117,12 @@ export default function SidebarLinks ({ pathname }) {
                 <button
                   className={`${styles.menu} ${pathname.includes(menu.root_path)
                     ? 'bg-sky-100 text-blue-600 font-semibold hover:bg-sky-200'
-                    : 'font-medium text-gray-500 hover:bg-gray-100 group-[.active]:bg-gray-100'}`}
+                    : 'font-medium text-slate-500 hover:bg-gray-100 group-[.active]:bg-gray-100'}`}
                   onClick={handleClick}
                 >
                   <i>{menu.icon}</i>
                   <span className='flex-1 text-left text-sm'>{menu.name}</span>
-                  <i className='icon'><ChevronRight classname='w-[14px] transition-transform' /></i>
+                  <i className='icon'><ChevronRight classname='w-[15px] transition-transform' /></i>
                 </button>
 
                 <div className={`${styles.panel}`}>
@@ -132,14 +132,14 @@ export default function SidebarLinks ({ pathname }) {
                         <Link href={submenu.href}
                           className={`${styles.submenu} ${pathname === submenu.href
                             ? 'font-semibold'
-                            : 'text-gray-500'}`}
+                            : 'text-slate-500'}`}
                         >
                           <i>
                             <Point classname={`w-[12px] transition-transform ${pathname === submenu.href
                               ? 'text-blue-600 scale-150'
-                              : 'text-gray-500'} `} />
+                              : 'text-slate-500'} `} />
                           </i>
-                          <span className='text-sm'>{submenu.name}</span>
+                          <span className='text-sm text-slate-700'>{submenu.name}</span>
                         </Link>
                       </li>
                     ))}
