@@ -19,8 +19,10 @@ export default function Navbar () {
 
         <div className='flex gap-5 md:flex-1 md:justify-end text-gray-500'>
           <i><Bell /></i>
-          <i>User</i>
           <i><Settings /></i>
+          <button className='w-9 h-9 rounded-full p-0.5 bg-gray-100 transition-color duration-200 hover:scale-105'>
+            <div className='overflow-hidden rounded-full border-2 border-white'>
+              <img src='/user-anonymous-thumbail.webp' alt='user anonymous profile' />
         </div>
       </nav>
     </div>
