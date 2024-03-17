@@ -19,7 +19,7 @@ export function ChevronRight ({ classname }) {
       height='24'
       className={classname ?? ''}
       viewBox='0 0 24 24'
-      strokeWidth='1.5'
+      strokeWidth='2'
       stroke='currentColor'
       fill='none'
       strokeLinecap='round'
