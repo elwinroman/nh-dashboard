@@ -8,13 +8,13 @@ const menus = [
     name: 'Home',
     href: '/dashboard',
     collapsable: false,
-    icon: <Widget5 classname='w-[20px]' />
+    icon: <Widget5 classname='w-[22px]' />
   },
   {
     name: 'Proyectos',
     root_path: 'proyectos',
     collapsable: true,
-    icon: <LayersMinimalistic classname='w-[20px]' />,
+    icon: <LayersMinimalistic classname='w-[22px]' />,
     submenus: [
       {
         name: 'Nuevo proyecto',
@@ -30,7 +30,7 @@ const menus = [
     name: 'Lotes',
     root_path: 'lotes',
     collapsable: true,
-    icon: <Library classname='w-[20px]' />,
+    icon: <Library classname='w-[22px]' />,
     submenus: [
       {
         name: 'Agregar lote',
@@ -46,7 +46,7 @@ const menus = [
     name: 'Agentes',
     root_path: 'agentes',
     collapsable: true,
-    icon: <UserSpeak classname='w-[20px]' />,
+    icon: <UserSpeak classname='w-[22px]' />,
     submenus: [
       {
         name: 'Agregar agente',
@@ -62,7 +62,7 @@ const menus = [
     name: 'Clientes',
     root_path: 'clientes',
     collapsable: true,
-    icon: <UsersGroupRounded classname='w-[20px]' />,
+    icon: <UsersGroupRounded classname='w-[22px]' />,
     submenus: [
       {
         name: 'Nuevo cliente',
