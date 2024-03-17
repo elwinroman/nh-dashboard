@@ -22,3 +22,8 @@
 .submenu {
   @apply w-full flex items-center gap-4 rounded-lg px-5 py-1.5 transition-colors hover:bg-gray-100;
 }
+
+/* Navbar buttons */
+.btn {
+  @apply p-2 rounded-full transition-all duration-200 hover:scale-105 hover:bg-gray-100
+}
