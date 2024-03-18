@@ -12,7 +12,7 @@ export default function Navbar () {
   const updateToggle = useSidebarStore(state => state.updateToggle)
 
   return (
-    <div className='w-full h-20 sticky top-0 z-20 md:z-0'>
+    <div className='w-full basis-20 shrink-0 sticky top-0 z-20 md:z-0'>
       <nav className='w-full h-full bg-white flex items-center px-5 shadow-[0_.75rem_1.5rem_#12263f08]'>
         <div className='flex-1 m-0'>
           <button
