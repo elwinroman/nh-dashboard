@@ -11,7 +11,7 @@ export default function Sidebar () {
   const toggleSidebar = useSidebarStore(state => state.toggle)
 
   return (
-    <div className={`${styles.scroll} z-10 fixed h-screen bg-white/85 backdrop-blur-sm shadow-[0_0_30px_#0003] transition-[width,left]
+    <div className={`${styles.scroll} z-10 fixed h-screen bg-white/85 backdrop-blur-sm shadow-[0_0_30px_#0003] transition-[width,left,scrollbar-color]
                     md:shadow-none md:border md:border-gray-200 md:block md:relative md:left-0
                     ${toggleSidebar ? 'left-0 w-sidebar-sm md:w-sidebar-md' : '-left-[100%] w-0'}`}
     >
